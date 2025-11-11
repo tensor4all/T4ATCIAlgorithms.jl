@@ -4,11 +4,11 @@ using Random
 import QuanticsGrids as QG
 using TensorCrossInterpolation
 import TensorCrossInterpolation as TCI
-import TCIAlgorithms as TCIA
+import T4ATCIAlgorithms as TCIA
 using HubbardAtoms
 using SparseIR
 
-import TCIAlgorithms:
+import T4ATCIAlgorithms:
     create_node,
     add!,
     find_node,

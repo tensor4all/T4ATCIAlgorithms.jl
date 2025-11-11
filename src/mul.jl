@@ -138,12 +138,13 @@ function approxtt(
     a_tto = TensorTrain{T,4}(obj.a.data, obj.a.sitedims)
     b_tto = TensorTrain{T,4}(obj.b.data, obj.b.sitedims)
 
-    a_MPO = MPO(a_tto; sites=sites_a)
-    b_MPO = MPO(b_tto; sites=sites_b)
-
-    ab_MPO =
-        obj.coeff * FMPOC.contract_fit(a_MPO, b_MPO; maxdim=maxbonddim, cutoff=tolerance^2)
-    ab_tto = TensorTrain{T,4}(ab_MPO; sites=sites_ab)
+    # Contract two TT-operators using TensorCrossInterpolation
+    # Choose zipup (SVD-based) for predictable truncation
+    ab_tto = TCI.contract(
+        a_tto, b_tto; algorithm=:zipup, tolerance=tolerance, maxbonddim=maxbonddim
+    )
+    # Apply scalar coefficient
+    ab_tto = ab_tto * obj.coeff
 
     return project(ProjTensorTrain(ab_tto), obj.projector)
 end

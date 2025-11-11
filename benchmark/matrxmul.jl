@@ -1,5 +1,5 @@
 import TensorCrossInterpolation as TCI
-import TCIAlgorithms as TCIA
+import T4ATCIAlgorithms as TCIA
 using BenchmarkTools
 using Random
 

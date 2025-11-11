@@ -1,18 +1,18 @@
-using TCIAlgorithms
+using T4ATCIAlgorithms
 using Documenter
 
-DocMeta.setdocmeta!(TCIAlgorithms, :DocTestSetup, :(using TCIAlgorithms); recursive=true)
+DocMeta.setdocmeta!(T4ATCIAlgorithms, :DocTestSetup, :(using T4ATCIAlgorithms); recursive=true)
 
 makedocs(;
-    modules=[TCIAlgorithms],
+    modules=[T4ATCIAlgorithms],
     authors="Hiroshi Shinaoka <h.shinaoka@gmail.com> and contributors",
-    sitename="TCIAlgorithms.jl",
+    sitename="T4ATCIAlgorithms.jl",
     format=Documenter.HTML(;
-        canonical="https://github.com/tensor4all/TCIAlgorithms.jl",
+        canonical="https://github.com/tensor4all/T4ATCIAlgorithms.jl",
         edit_link="main",
         assets=String[],
     ),
     pages=["Home" => "index.md"],
 )
 
-deploydocs(; repo="github.com/tensor4all/TCIAlgorithms.jl.git", devbranch="main")
+deploydocs(; repo="github.com/tensor4all/T4ATCIAlgorithms.jl.git", devbranch="main")

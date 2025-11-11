@@ -1,8 +1,8 @@
 using Test
 import TensorCrossInterpolation as TCI
-import TCIAlgorithms as TCIA
+import T4ATCIAlgorithms as TCIA
 
-import TCIAlgorithms: Projector, project, ProjTensorTrain, LazyMatrixMul, makeprojectable
+import T4ATCIAlgorithms: Projector, project, ProjTensorTrain, LazyMatrixMul, makeprojectable
 
 @testset "mul" begin
     @testset "lazymatmul" begin

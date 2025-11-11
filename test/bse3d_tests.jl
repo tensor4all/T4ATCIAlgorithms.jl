@@ -1,6 +1,6 @@
 import QuanticsGrids as QG
 using TensorCrossInterpolation
-import TCIAlgorithms as TCIA
+import T4ATCIAlgorithms as TCIA
 using HubbardAtoms
 using SparseIR
 using Quantics

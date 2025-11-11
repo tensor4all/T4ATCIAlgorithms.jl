@@ -1,8 +1,8 @@
 using Test
 import TensorCrossInterpolation as TCI
-import TCIAlgorithms as TCIA
+import T4ATCIAlgorithms as TCIA
 
-import TCIAlgorithms: Projector
+import T4ATCIAlgorithms: Projector
 
 @testset "ProjContainer" begin
     @testset "ProjTTContainer" begin

@@ -1,14 +1,14 @@
 using Test
 using Aqua
 using JET
-using TCIAlgorithms
+using T4ATCIAlgorithms
 
 @testset "Aqua.jl" begin
-    Aqua.test_all(TCIAlgorithms; deps_compat=false)
+    Aqua.test_all(T4ATCIAlgorithms; deps_compat=false)
 end
 
 #=
 @testset "JET.jl" begin
-    JET.test_package(TCIAlgorithms; target_defined_modules=true)
+    JET.test_package(T4ATCIAlgorithms; target_defined_modules=true)
 end
 =#

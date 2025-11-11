@@ -209,8 +209,8 @@ function find_nested_index(data::Vector{Vector{T}}, target::T) where {T}
 end
 
 # Quantics Functions
-function Quantics.makesitediagonal(projmps::ProjMPS, site::Index)
-    mps_diagonal = Quantics.makesitediagonal(MPS(projmps), site)
+function T4AQuantics.makesitediagonal(projmps::ProjMPS, site::Index)
+    mps_diagonal = T4AQuantics.makesitediagonal(MPS(projmps), site)
     sites_diagonal = ITensors.SiteTypes.siteinds(all, mps_diagonal)
     projmps_diagonal = ProjMPS(mps_diagonal, sites_diagonal)
 
@@ -228,12 +228,12 @@ function Quantics.makesitediagonal(projmps::ProjMPS, site::Index)
     return project(projmps_diagonal, prjsiteinds)
 end
 
-function Quantics.makesitediagonal(projmps::ProjMPS, tag::String)
-    mps_diagonal = Quantics.makesitediagonal(MPS(projmps), tag)
+function T4AQuantics.makesitediagonal(projmps::ProjMPS, tag::String)
+    mps_diagonal = T4AQuantics.makesitediagonal(MPS(projmps), tag)
     sites_diagonal = ITensors.SiteTypes.siteinds(all, mps_diagonal)
     projmps_diagonal = ProjMPS(mps_diagonal, sites_diagonal)
 
-    target_positions = Quantics.findallsiteinds_by_tag(
+    target_positions = T4AQuantics.findallsiteinds_by_tag(
         ITensors.SiteTypes.siteinds(MPS(projmps)); tag=tag
     )
     prjsiteinds = Dict{Index{Int},Int}()
@@ -250,14 +250,14 @@ function Quantics.makesitediagonal(projmps::ProjMPS, tag::String)
     return project(projmps_diagonal, prjsiteinds)
 end
 
-function Quantics.makesitediagonal(projmpss::ProjMPSContainer, sites)
+function T4AQuantics.makesitediagonal(projmpss::ProjMPSContainer, sites)
     return ProjMPSContainer([
-        Quantics.makesitediagonal(projmps, sites) for projmps in projmpss.data
+        T4AQuantics.makesitediagonal(projmps, sites) for projmps in projmpss.data
     ])
 end
 
-function Quantics.extractdiagonal(projmps::ProjMPS, tag::String)
-    mps_diagonal = Quantics.extractdiagonal(MPS(projmps), tag)
+function T4AQuantics.extractdiagonal(projmps::ProjMPS, tag::String)
+    mps_diagonal = T4AQuantics.extractdiagonal(MPS(projmps), tag)
     sites_diagonal = ITensors.SiteTypes.siteinds(all, mps_diagonal)
     projmps_diagonal = ProjMPS(mps_diagonal, sites_diagonal)
     sites_diagonal_set = Set(Iterators.flatten(sites_diagonal))
@@ -274,14 +274,14 @@ function Quantics.extractdiagonal(projmps::ProjMPS, tag::String)
     return project(projmps_diagonal, prjsiteinds)
 end
 
-function Quantics.extractdiagonal(projmpss::ProjMPSContainer, sites)
+function T4AQuantics.extractdiagonal(projmpss::ProjMPSContainer, sites)
     return ProjMPSContainer([
-        Quantics.extractdiagonal(projmps, sites) for projmps in projmpss.data
+        T4AQuantics.extractdiagonal(projmps, sites) for projmps in projmpss.data
     ])
 end
 
-function Quantics.rearrange_siteinds(projmps::ProjMPS, sites)
-    mps_rearranged = Quantics.rearrange_siteinds(MPS(projmps), sites)
+function T4AQuantics.rearrange_siteinds(projmps::ProjMPS, sites)
+    mps_rearranged = T4AQuantics.rearrange_siteinds(MPS(projmps), sites)
     projmps_rearranged = ProjMPS(mps_rearranged, sites)
     prjsiteinds = Dict{Index{Int},Int}()
     for (p, s) in zip(projmps.projector, projmps.sites)
@@ -294,9 +294,9 @@ function Quantics.rearrange_siteinds(projmps::ProjMPS, sites)
     return project(projmps_rearranged, prjsiteinds)
 end
 
-function Quantics.rearrange_siteinds(projmpss::ProjMPSContainer, sites)
+function T4AQuantics.rearrange_siteinds(projmpss::ProjMPSContainer, sites)
     return ProjMPSContainer([
-        Quantics.rearrange_siteinds(projmps, sites) for projmps in projmpss.data
+        T4AQuantics.rearrange_siteinds(projmps, sites) for projmps in projmpss.data
     ])
 end
 

@@ -6,7 +6,7 @@ addprocs(max(0, MAX_WORKERS - nworkers()))
 
 @everywhere begin
     import TensorCrossInterpolation as TCI
-    import TCIAlgorithms as TCIA
+    import T4ATCIAlgorithms as TCIA
 
     function workerfunc(n)
         if n > 0

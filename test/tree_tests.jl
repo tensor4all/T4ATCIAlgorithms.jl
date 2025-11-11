@@ -3,8 +3,8 @@ using Random
 
 using TensorCrossInterpolation
 import TensorCrossInterpolation as TCI
-import TCIAlgorithms as TCIA
-import TCIAlgorithms:
+import T4ATCIAlgorithms as TCIA
+import T4ATCIAlgorithms:
     create_node, add_value!, find_node, all_nodes, delete_value!, delete_node!, isleaf
 
 @testset "tree" begin

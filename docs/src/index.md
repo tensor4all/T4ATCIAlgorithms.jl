@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = TCIAlgorithms
+CurrentModule = T4ATCIAlgorithms
 ```
 
-# TCIAlgorithms
+# T4ATCIAlgorithms
 
-Documentation for [TCIAlgorithms](https://gitlab.com/tensors4fields/TCIAlgorithms.jl).
+Documentation for [T4ATCIAlgorithms](https://github.com/tensor4all/T4ATCIAlgorithms.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [TCIAlgorithms]
+Modules = [T4ATCIAlgorithms]
 ```

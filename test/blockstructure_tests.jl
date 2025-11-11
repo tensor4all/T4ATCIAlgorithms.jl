@@ -1,6 +1,6 @@
 using Test
 import TensorCrossInterpolation as TCI
-import TCIAlgorithms as TCIA
+import T4ATCIAlgorithms as TCIA
 
 @testset "BlockStructure" begin
     @testset "constructor" begin

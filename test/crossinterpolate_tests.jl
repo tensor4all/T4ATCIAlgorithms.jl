@@ -4,7 +4,7 @@ using Random
 
 @everywhere using TensorCrossInterpolation
 @everywhere import TensorCrossInterpolation as TCI
-@everywhere import TCIAlgorithms as TCIA
+@everywhere import T4ATCIAlgorithms as TCIA
 @everywhere import QuanticsGrids:
     DiscretizedGrid, quantics_to_origcoord, origcoord_to_quantics
 @everywhere import QuanticsGrids as QG

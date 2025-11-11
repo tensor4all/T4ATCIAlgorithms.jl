@@ -3,7 +3,7 @@ using Random
 
 using TensorCrossInterpolation
 import TensorCrossInterpolation as TCI
-import TCIAlgorithms as TCIA
+import T4ATCIAlgorithms as TCIA
 
 @testset "patching" begin
     @testset "createpath" begin

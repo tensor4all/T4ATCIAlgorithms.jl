@@ -1,4 +1,8 @@
 using ITensors
+using Test
+using Random
+using T4AITensorCompat: random_mps, random_mpo, MPO
+import T4ATCIAlgorithms as TCIA
 
 function _test_projection(obj::TCIA.ProjectableEvaluator, prj)
     pobj = TCIA.project(obj, prj)
@@ -35,7 +39,7 @@ function _random_mpo(
     rng::AbstractRNG, sites::AbstractVector{<:AbstractVector{Index{T}}}; m::Int=1
 ) where {T}
     sites_ = collect(Iterators.flatten(sites))
-    Ψ = random_mps(rng, sites_, m)
+    Ψ = random_mps(rng, sites_; linkdims=m)
     tensors = ITensor[]
     pos = 1
     for i in 1:length(sites)
