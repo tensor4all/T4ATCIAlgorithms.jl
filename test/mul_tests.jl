@@ -1,5 +1,5 @@
 using Test
-import TensorCrossInterpolation as TCI
+import T4ATensorCI as TCI
 import T4ATCIAlgorithms as TCIA
 
 import T4ATCIAlgorithms: Projector, project, ProjTensorTrain, LazyMatrixMul, makeprojectable

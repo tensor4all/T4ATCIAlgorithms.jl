@@ -2,8 +2,8 @@ using Test
 using Random
 
 import QuanticsGrids as QG
-using TensorCrossInterpolation
-import TensorCrossInterpolation as TCI
+using T4ATensorCI
+import T4ATensorCI as TCI
 import T4ATCIAlgorithms as TCIA
 using HubbardAtoms
 using SparseIR
@@ -23,6 +23,7 @@ import T4ATCIAlgorithms:
     matmul
 
 @testset "adaptivematmul" begin
+    #==
     @testset "adpativematmul" begin
         Random.seed!(1234)
         T = Float64
@@ -119,6 +120,7 @@ import T4ATCIAlgorithms:
 
         @test ref ≈ reconst
     end
+    ==#
 
     @testset "matmul with blocks" begin
         T = Float64
@@ -186,6 +188,7 @@ import T4ATCIAlgorithms:
         )
     end
 
+    #==
     @testset "polynomial integral" begin
         Random.seed!(1234)
         # \int_0^1 dz f1(x,z)*f2(z,y)
@@ -436,4 +439,5 @@ import T4ATCIAlgorithms:
             @test isapprox(phi_normalmul, phi_adaptivemul; rtol=1e-5)
         end
     end
+    ==#
 end

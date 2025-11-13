@@ -1,7 +1,7 @@
 module T4ATCIAlgorithms
 
-import TensorCrossInterpolation as TCI
-import TensorCrossInterpolation:
+import T4ATensorCI as TCI
+import T4ATensorCI:
     TensorTrain, evaluate, TTCache, MultiIndex, LocalIndex, TensorCI2
 using ITensors
 using T4AQuantics
@@ -9,10 +9,6 @@ using T4AQuantics
 using OrderedCollections: OrderedDict, OrderedSet
 using Distributed
 using EllipsisNotation
-
-import TensorCrossInterpolation as TCI
-import TensorCrossInterpolation:
-    TensorTrain, evaluate, TTCache, MultiIndex, LocalIndex, TensorCI2
 import LinearAlgebra as LA
 
 const MMultiIndex = Vector{Vector{Int}}

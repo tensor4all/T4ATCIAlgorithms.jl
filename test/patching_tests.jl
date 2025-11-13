@@ -1,8 +1,8 @@
 using Test
 using Random
 
-using TensorCrossInterpolation
-import TensorCrossInterpolation as TCI
+using T4ATensorCI
+import T4ATensorCI as TCI
 import T4ATCIAlgorithms as TCIA
 
 @testset "patching" begin

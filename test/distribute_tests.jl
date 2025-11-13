@@ -5,7 +5,7 @@ using Test
 addprocs(max(0, MAX_WORKERS - nworkers()))
 
 @everywhere begin
-    import TensorCrossInterpolation as TCI
+    import T4ATensorCI as TCI
     import T4ATCIAlgorithms as TCIA
 
     function workerfunc(n)

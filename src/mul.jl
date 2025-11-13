@@ -138,7 +138,7 @@ function approxtt(
     a_tto = TensorTrain{T,4}(obj.a.data, obj.a.sitedims)
     b_tto = TensorTrain{T,4}(obj.b.data, obj.b.sitedims)
 
-    # Contract two TT-operators using TensorCrossInterpolation
+    # Contract two TT-operators using T4ATensorCI
     # Choose zipup (SVD-based) for predictable truncation
     ab_tto = TCI.contract(
         a_tto, b_tto; algorithm=:zipup, tolerance=tolerance, maxbonddim=maxbonddim

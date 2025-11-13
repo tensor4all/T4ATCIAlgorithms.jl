@@ -1,7 +1,7 @@
 module TCIAlgorithms
 
-import TensorCrossInterpolation as TCI
-import TensorCrossInterpolation:
+import T4ATensorCI as TCI
+import T4ATensorCI:
     TensorTrain, evaluate, TTCache, MultiIndex, LocalIndex, TensorCI2
 
 using TCIITensorConversion
@@ -13,10 +13,6 @@ using Quantics
 using OrderedCollections: OrderedDict, OrderedSet
 using Distributed
 using EllipsisNotation
-
-import TensorCrossInterpolation as TCI
-import TensorCrossInterpolation:
-    TensorTrain, evaluate, TTCache, MultiIndex, LocalIndex, TensorCI2
 using TCIITensorConversion
 import LinearAlgebra as LA
 

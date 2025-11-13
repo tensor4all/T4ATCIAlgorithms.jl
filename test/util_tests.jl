@@ -1,5 +1,5 @@
 using Test
-import TensorCrossInterpolation as TCI
+import T4ATensorCI as TCI
 import T4ATCIAlgorithms as TCIA
 
 @testset "Util" begin
