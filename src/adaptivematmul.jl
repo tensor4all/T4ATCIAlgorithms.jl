@@ -15,8 +15,11 @@ function adaptivematmul(
         end
     end
 
+    println("number of nodes: ", length(all_nodes(root)))
+
     # Perform lazy matrix multiplications
     _performmul!(root, pordering; tolerance=tolerance, maxbonddim=maxbonddim)
+    println("[DEBUG] _performmul! done")
 
     allpatches = reduce(append!, [node.value for node in all_nodes(root)])
 
@@ -40,7 +43,9 @@ function _performmul!(
 ) where {T}
     # Check if lazy matrix multiplications can be performed
     L = length(pordering)
+    i = 1
     while true
+        println("[DEBUG] _performmul! iteration $i, number of nodes: ", length(all_nodes(root)))
         updated = false
         for node in all_nodes(root)
             for v in node.value
