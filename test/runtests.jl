@@ -14,6 +14,8 @@ if nworkers() < MAX_WORKERS
 end
 
 #include("codequality_tests.jl")
+include("test_with_aqua.jl")
+include("test_with_jet.jl")
 # Conditionally include _util.jl if T4AITensorCompat is available
 try
     include("_util.jl")
