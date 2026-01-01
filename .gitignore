@@ -3,3 +3,8 @@
 *.jl.mem
 /Manifest.toml
 /docs/build/
+
+# Test and build logs
+*.log
+docs/*build*.log
+doc_build.log

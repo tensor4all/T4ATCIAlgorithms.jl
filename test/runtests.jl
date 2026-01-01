@@ -13,21 +13,30 @@ if nworkers() < MAX_WORKERS
     addprocs(max(0, MAX_WORKERS - nworkers()))
 end
 
-#include("codequality_tests.jl")
+# Run Aqua and JET tests when not explicitly skipped
+if !haskey(ENV, "SKIP_AQUA_JET")
+    using Pkg
+    Pkg.add("Aqua")
+    Pkg.add("JET")
+    include("codequality_tests.jl")
+end
+
 include("_util.jl")
 
-#include("util_tests.jl")
-#include("projector_tests.jl")
-#include("blockstructure_tests.jl")
-#include("projectable_evaluator_tests.jl")
-#include("projtensortrain_tests.jl")
-#include("container_tests.jl")
-#include("mul_tests.jl")
-#include("distribute_tests.jl")
-#include("patching_tests.jl")
-#include("crossinterpolate_tests.jl")
-#include("tree_tests.jl")
-include("adaptivematmul_tests.jl")
+include("util_tests.jl")
+include("projector_tests.jl")
+include("blockstructure_tests.jl")
+include("projectable_evaluator_tests.jl")
+include("projtensortrain_tests.jl")
+include("container_tests.jl")
+include("mul_tests.jl")
+include("distribute_tests.jl")
+include("patching_tests.jl")
+include("crossinterpolate_tests.jl")
+include("tree_tests.jl")
+
+# This tests runs very long time, creating many patches.
+#include("adaptivematmul_tests.jl")
 
 # Following tests did not work with T4AITensorCompat
 #include("itensor_compat_tests.jl")

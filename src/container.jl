@@ -47,13 +47,18 @@ end
 function approxtt(
     obj::ProjContainer{T,V}; maxbonddim=typemax(Int), tolerance=1e-14, kwargs...
 )::ProjTensorTrain{T} where {T,V}
-    return reduce(
-        (x, y) -> add(x, y; maxbonddim=maxbonddim, tolerance=tolerance, kwargs...),
-        (
-            approxtt(x; maxbonddim=maxbonddim, tolerance=tolerance, kwargs...) for
-            x in obj.data
-        ),
-    )
+    isempty(obj.data) && error("Cannot compute approxtt for empty container")
+    result = approxtt(obj.data[1]; maxbonddim=maxbonddim, tolerance=tolerance, kwargs...)
+    for x in obj.data[2:end]
+        result = add(
+            result,
+            approxtt(x; maxbonddim=maxbonddim, tolerance=tolerance, kwargs...);
+            maxbonddim=maxbonddim,
+            tolerance=tolerance,
+            kwargs...,
+        )
+    end
+    return result
 end
 
 function isapproxttavailable(obj::ProjContainer)
