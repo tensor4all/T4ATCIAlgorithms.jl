@@ -16,14 +16,15 @@ TensorCrossInterpolation = "b261b2ec-6378-4871-b32e-9173bb050604"
 [compat]
 EllipsisNotation = "1"
 OrderedCollections = "1"
-T4AQuantics = "0.5"
-T4ATensorCI = "0.10"
+T4AQuantics = "0.6"
+T4ATensorCI = "0.12"
 julia = "1.10"
 
 [extras]
 Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
 HubbardAtoms = "4f3da25b-ea28-4d4f-a81f-380d3f5e56a6"
 JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 QuanticsGrids = "634c7f73-3e90-4749-a1bd-001b8efc642d"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 SparseIR = "4fe2279e-80f0-4adb-8463-ee114ff56b7d"
@@ -31,4 +32,4 @@ T4AITensorCompat = "864b39ca-388c-4f43-a593-a1076cf4b253"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Aqua", "JET", "Test", "Random", "QuanticsGrids", "SparseIR", "HubbardAtoms", "T4AITensorCompat"]
+test = ["Test", "Random", "QuanticsGrids", "SparseIR", "HubbardAtoms", "T4AITensorCompat", "Pkg"]
