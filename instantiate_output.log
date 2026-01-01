@@ -1,0 +1,228 @@
+[32m[1m   Resolving[22m[39m package versions...
+[32m[1m   Installed[22m[39m T4AITensorCompat ─── v0.6.0
+[32m[1m   Installed[22m[39m T4AQuantics ──────── v0.5.0
+[32m[1m    Updating[22m[39m git-repo `https://github.com/tensor4all/T4APartitionedMPSs.jl`
+[32m[1m   Installed[22m[39m T4APartitionedMPSs ─ v0.7.3
+[32m[1m    Updating[22m[39m `~/projects/JuliaUmbrella/T4ATCIAlgorithms.jl/Project.toml`
+  [90m[da5c29d0] [39m[92m+ EllipsisNotation v1.8.0[39m
+  [90m[9136182c] [39m[92m+ ITensors v0.9.14[39m
+  [90m[bac558e1] [39m[92m+ OrderedCollections v1.8.1[39m
+  [90m[99202d80] [39m[92m+ T4AQuantics v0.5.0[39m
+  [90m[14428447] [39m[92m+ T4ATensorCI v0.10.0 `../T4ATensorCI.jl`[39m
+  [90m[8ba89e20] [39m[93m~ Distributed ⇒ v1.11.0[39m
+  [90m[37e2e46d] [39m[93m~ LinearAlgebra ⇒ v1.12.0[39m
+[32m[1m    Updating[22m[39m `~/projects/JuliaUmbrella/T4ATCIAlgorithms.jl/Manifest.toml`
+  [90m[7d9f7c33] [39m[92m+ Accessors v0.1.42[39m
+  [90m[79e6a3ab] [39m[92m+ Adapt v4.4.0[39m
+  [90m[dce04be8] [39m[92m+ ArgCheck v2.5.0[39m
+  [90m[4fba245c] [39m[92m+ ArrayInterface v7.22.0[39m
+  [90m[4c555306] [39m[92m+ ArrayLayouts v1.12.0[39m
+  [90m[198e06fe] [39m[92m+ BangBang v0.4.6[39m
+  [90m[9718e550] [39m[92m+ Baselet v0.1.1[39m
+  [90m[0e736298] [39m[92m+ Bessels v0.2.8[39m
+  [90m[c3b6d118] [39m[92m+ BitIntegers v0.3.5[39m
+  [90m[8e7c35d0] [39m[92m+ BlockArrays v1.9.2[39m
+  [90m[d360d2e6] [39m[92m+ ChainRulesCore v1.26.0[39m
+  [90m[f70d9fcc] [39m[92m+ CommonWorldInvalidations v1.0.0[39m
+  [90m[34da2185] [39m[92m+ Compat v4.18.1[39m
+  [90m[a33af91c] [39m[92m+ CompositionsBase v0.1.2[39m
+  [90m[187b0558] [39m[92m+ ConstructionBase v1.6.0[39m
+  [90m[9a962f9c] [39m[92m+ DataAPI v1.16.0[39m
+  [90m[864edb3b] [39m[92m+ DataStructures v0.19.3[39m
+  [90m[e2d170a0] [39m[92m+ DataValueInterfaces v1.0.0[39m
+  [90m[244e2a9f] [39m[92m+ DefineSingletons v0.1.2[39m
+  [90m[85a47980] [39m[92m+ Dictionaries v0.4.5[39m
+  [90m[ffbed154] [39m[92m+ DocStringExtensions v0.9.5[39m
+  [90m[da5c29d0] [39m[92m+ EllipsisNotation v1.8.0[39m
+  [90m[e2ba6199] [39m[92m+ ExprTools v0.1.10[39m
+  [90m[e189563c] [39m[92m+ ExternalDocstrings v0.1.1[39m
+  [90m[1a297f60] [39m[92m+ FillArrays v1.15.0[39m
+  [90m[41a02a25] [39m[92m+ Folds v0.2.10[39m
+  [90m[d9f16b24] [39m[92m+ Functors v0.5.2[39m
+  [90m[14197337] [39m[92m+ GenericLinearAlgebra v0.3.19[39m
+  [90m[f0d1745a] [39m[92m+ HalfIntegers v1.6.0[39m
+  [90m[0d1a4710] [39m[92m+ ITensorMPS v0.3.24[39m
+  [90m[9136182c] [39m[92m+ ITensors v0.9.14[39m
+  [90m[615f187c] [39m[92m+ IfElse v0.1.1[39m
+  [90m[313cdc1a] [39m[92m+ Indexing v1.1.1[39m
+  [90m[22cec73e] [39m[92m+ InitialValues v0.3.1[39m
+  [90m[842dd82b] [39m[92m+ InlineStrings v1.4.5[39m
+  [90m[3587e190] [39m[92m+ InverseFunctions v0.1.17[39m
+  [90m[28f27b66] [39m[92m+ IsApprox v2.0.0[39m
+  [90m[82899510] [39m[92m+ IteratorInterfaceExtensions v1.0.0[39m
+  [90m[0b1a1467] [39m[92m+ KrylovKit v0.10.2[39m
+  [90m[1914dd2f] [39m[92m+ MacroTools v0.5.16[39m
+  [90m[128add7d] [39m[92m+ MicroCollections v0.2.0[39m
+  [90m[bdf0d083] [39m[92m+ MultiFloats v2.3.0[39m
+  [90m[23ae76d9] [39m[92m+ NDTensors v0.4.15[39m
+  [90m[bac558e1] [39m[92m+ OrderedCollections v1.8.1[39m
+  [90m[65ce6f38] [39m[92m+ PackageExtensionCompat v1.0.2[39m
+  [90m[aea7be01] [39m[92m+ PrecompileTools v1.3.3[39m
+  [90m[21216c6a] [39m[92m+ Preferences v1.5.0[39m
+  [90m[1fd47b50] [39m[92m+ QuadGK v2.11.2[39m
+  [90m[634c7f73] [39m[92m+ QuanticsGrids v0.6.0[39m
+  [90m[b11687fd] [39m[92m+ QuanticsTCI v0.7.2[39m
+  [90m[42d2dcc6] [39m[92m+ Referenceables v0.1.3[39m
+  [90m[ae029012] [39m[92m+ Requires v1.3.1[39m
+  [90m[fdea26ae] [39m[92m+ SIMD v3.7.2[39m
+  [90m[431bcebd] [39m[92m+ SciMLPublic v1.0.0[39m
+  [90m[d3ce8812] [39m[92m+ SerializedElementArrays v0.1.0[39m
+  [90m[efcf1570] [39m[92m+ Setfield v1.1.2[39m
+  [90m[699a6c99] [39m[92m+ SimpleTraits v0.9.5[39m
+  [90m[4fe2279e] [39m[92m+ SparseIR v1.1.4[39m
+  [90m[03a91e81] [39m[92m+ SplitApplyCombine v1.2.3[39m
+  [90m[171d559e] [39m[92m+ SplittablesBase v0.1.15[39m
+  [90m[aedffcd0] [39m[92m+ Static v1.3.1[39m
+  [90m[0d7ed370] [39m[92m+ StaticArrayInterface v1.8.0[39m
+  [90m[90137ffa] [39m[92m+ StaticArrays v1.9.15[39m
+  [90m[1e83bf80] [39m[92m+ StaticArraysCore v1.4.4[39m
+  [90m[5e0ebb24] [39m[92m+ Strided v2.3.2[39m
+  [90m[4db3bf67] [39m[92m+ StridedViews v0.4.1[39m
+[33m⌅[39m [90m[864b39ca] [39m[92m+ T4AITensorCompat v0.6.0[39m
+  [90m[f7a3e09c] [39m[92m+ T4APartitionedMPSs v0.7.3[39m
+  [90m[99202d80] [39m[92m+ T4AQuantics v0.5.0[39m
+  [90m[14428447] [39m[92m+ T4ATensorCI v0.10.0 `../T4ATensorCI.jl`[39m
+  [90m[3783bdb8] [39m[92m+ TableTraits v1.0.1[39m
+  [90m[bd369af6] [39m[92m+ Tables v1.12.1[39m
+  [90m[b261b2ec] [39m[92m+ TensorCrossInterpolation v0.9.18[39m
+  [90m[24d252fe] [39m[92m+ ThreadedScans v0.1.0[39m
+  [90m[a759f4b9] [39m[92m+ TimerOutputs v0.5.29[39m
+  [90m[28d57a85] [39m[92m+ Transducers v0.4.85[39m
+  [90m[9d95972d] [39m[92m+ TupleTools v1.6.0[39m
+  [90m[409d34a3] [39m[92m+ VectorInterface v0.5.0[39m
+  [90m[bd1ec220] [39m[92m+ Zeros v0.4.0[39m
+  [90m[0dad84c5] [39m[92m+ ArgTools v1.1.2[39m
+  [90m[56f22d72] [39m[92m+ Artifacts v1.11.0[39m
+  [90m[2a0f44e3] [39m[92m+ Base64 v1.11.0[39m
+  [90m[ade2ca70] [39m[92m+ Dates v1.11.0[39m
+  [90m[8ba89e20] [39m[93m~ Distributed ⇒ v1.11.0[39m
+  [90m[f43a241f] [39m[92m+ Downloads v1.6.0[39m
+  [90m[7b1f6079] [39m[92m+ FileWatching v1.11.0[39m
+  [90m[9fa8497b] [39m[92m+ Future v1.11.0[39m
+  [90m[b77e0a4c] [39m[92m+ InteractiveUtils v1.11.0[39m
+  [90m[ac6e5ff7] [39m[92m+ JuliaSyntaxHighlighting v1.12.0[39m
+  [90m[b27032c2] [39m[92m+ LibCURL v0.6.4[39m
+  [90m[76f85450] [39m[92m+ LibGit2 v1.11.0[39m
+  [90m[8f399da3] [39m[92m+ Libdl v1.11.0[39m
+  [90m[37e2e46d] [39m[93m~ LinearAlgebra ⇒ v1.12.0[39m
+  [90m[56ddb016] [39m[92m+ Logging v1.11.0[39m
+  [90m[d6f4376e] [39m[92m+ Markdown v1.11.0[39m
+  [90m[ca575930] [39m[92m+ NetworkOptions v1.3.0[39m
+  [90m[44cfe95a] [39m[92m+ Pkg v1.12.0[39m
+  [90m[de0858da] [39m[92m+ Printf v1.11.0[39m
+  [90m[9a3f8284] [39m[92m+ Random v1.11.0[39m
+  [90m[ea8e919c] [39m[92m+ SHA v0.7.0[39m
+  [90m[9e88b42a] [39m[92m+ Serialization v1.11.0[39m
+  [90m[6462fe0b] [39m[92m+ Sockets v1.11.0[39m
+  [90m[2f01184e] [39m[92m+ SparseArrays v1.12.0[39m
+  [90m[f489334b] [39m[92m+ StyledStrings v1.11.0[39m
+  [90m[fa267f1f] [39m[92m+ TOML v1.0.3[39m
+  [90m[a4e569a6] [39m[92m+ Tar v1.10.0[39m
+  [90m[8dfed614] [39m[92m+ Test v1.11.0[39m
+  [90m[cf7118a7] [39m[92m+ UUIDs v1.11.0[39m
+  [90m[4ec0a83e] [39m[92m+ Unicode v1.11.0[39m
+  [90m[e66e0078] [39m[92m+ CompilerSupportLibraries_jll v1.3.0+1[39m
+  [90m[deac9b47] [39m[92m+ LibCURL_jll v8.11.1+1[39m
+  [90m[e37daf67] [39m[92m+ LibGit2_jll v1.9.0+0[39m
+  [90m[29816b5a] [39m[92m+ LibSSH2_jll v1.11.3+1[39m
+  [90m[14a3606d] [39m[92m+ MozillaCACerts_jll v2025.5.20[39m
+  [90m[4536629a] [39m[92m+ OpenBLAS_jll v0.3.29+0[39m
+  [90m[458c3c95] [39m[92m+ OpenSSL_jll v3.5.1+0[39m
+  [90m[bea87d4a] [39m[92m+ SuiteSparse_jll v7.8.3+2[39m
+  [90m[83775a58] [39m[92m+ Zlib_jll v1.3.1+2[39m
+  [90m[8e850b90] [39m[92m+ libblastrampoline_jll v5.15.0+0[39m
+  [90m[8e850ede] [39m[92m+ nghttp2_jll v1.64.0+1[39m
+  [90m[3f19e933] [39m[92m+ p7zip_jll v17.5.0+2[39m
+[36m[1m        Info[22m[39m Packages marked with [33m⌅[39m have new versions available but compatibility constraints restrict them from upgrading. To see why use `status --outdated -m`
+[32m[1mPrecompiling[22m[39m packages...
+    390.2 ms[32m  ✓ [39m[90mDefineSingletons[39m
+    370.7 ms[32m  ✓ [39m[90mDataValueInterfaces[39m
+    381.0 ms[32m  ✓ [39m[90mExternalDocstrings[39m
+    440.5 ms[32m  ✓ [39m[90mHalfIntegers[39m
+    359.8 ms[32m  ✓ [39m[90mInverseFunctions[39m
+    800.5 ms[32m  ✓ [39m[90mFillArrays[39m
+    437.7 ms[32m  ✓ [39m[90mVectorInterface[39m
+    433.5 ms[32m  ✓ [39m[90mZeros[39m
+    353.1 ms[32m  ✓ [39m[90mExprTools[39m
+    308.3 ms[32m  ✓ [39m[90mIteratorInterfaceExtensions[39m
+    447.8 ms[32m  ✓ [39m[90mConstructionBase[39m
+    662.0 ms[32m  ✓ [39m[90mInlineStrings[39m
+    364.8 ms[32m  ✓ [39m[90mPackageExtensionCompat[39m
+    428.3 ms[32m  ✓ [39m[90mArgCheck[39m
+    343.5 ms[32m  ✓ [39m[90mCompositionsBase[39m
+   1309.8 ms[32m  ✓ [39m[90mBessels[39m
+    392.8 ms[32m  ✓ [39m[90mIndexing[39m
+    335.0 ms[32m  ✓ [39m[90mStaticArraysCore[39m
+    391.8 ms[32m  ✓ [39m[90mTupleTools[39m
+    694.3 ms[32m  ✓ [39m[90mGenericLinearAlgebra[39m
+    634.5 ms[32m  ✓ [39m[90mInitialValues[39m
+    343.4 ms[32m  ✓ [39m[90mSerializedElementArrays[39m
+    373.1 ms[32m  ✓ [39m[90mReferenceables[39m
+    768.5 ms[32m  ✓ [39m[90mBaselet[39m
+    560.4 ms[32m  ✓ [39m[90mSimpleTraits[39m
+    977.9 ms[32m  ✓ [39m[90mChainRulesCore[39m
+    767.4 ms[32m  ✓ [39m[90mQuanticsTCI[39m
+    632.1 ms[32m  ✓ [39m[90mInverseFunctions → InverseFunctionsDatesExt[39m
+    638.1 ms[32m  ✓ [39m[90mInverseFunctions → InverseFunctionsTestExt[39m
+   1019.6 ms[32m  ✓ [39m[90mTableTraits[39m
+   1585.8 ms[32m  ✓ [39m[90mFillArrays → FillArraysSparseArraysExt[39m
+   1358.9 ms[32m  ✓ [39m[90mConstructionBase → ConstructionBaseLinearAlgebraExt[39m
+    756.5 ms[32m  ✓ [39m[90mStridedViews[39m
+   1918.4 ms[32m  ✓ [39m[90mTimerOutputs[39m
+    628.0 ms[32m  ✓ [39m[90mCompositionsBase → CompositionsBaseInverseFunctionsExt[39m
+    996.3 ms[32m  ✓ [39m[90mThreadedScans[39m
+    472.9 ms[32m  ✓ [39m[90mArrayInterface → ArrayInterfaceStaticArraysCoreExt[39m
+   1575.6 ms[32m  ✓ [39m[90mKrylovKit[39m
+   1262.2 ms[32m  ✓ [39m[90mDictionaries[39m
+    457.2 ms[32m  ✓ [39m[90mArrayInterface → ArrayInterfaceChainRulesCoreExt[39m
+    648.3 ms[32m  ✓ [39m[90mChainRulesCore → ChainRulesCoreSparseArraysExt[39m
+    996.1 ms[32m  ✓ [39m[90mTables[39m
+    967.0 ms[32m  ✓ [39m[90mFunctors[39m
+   1090.2 ms[32m  ✓ [39m[90mSetfield[39m
+    883.7 ms[32m  ✓ [39m[90mStrided[39m
+    774.7 ms[32m  ✓ [39m[90mKrylovKit → KrylovKitChainRulesCoreExt[39m
+   6457.2 ms[32m  ✓ [39m[90mSIMD[39m
+    713.1 ms[32m  ✓ [39m[90mSplitApplyCombine[39m
+    954.4 ms[32m  ✓ [39m[90mSplittablesBase[39m
+   2124.3 ms[32m  ✓ [39m[90mAccessors[39m
+   1398.1 ms[32m  ✓ [39m[90mMultiFloats[39m
+    611.1 ms[32m  ✓ [39m[90mAccessors → LinearAlgebraExt[39m
+    692.2 ms[32m  ✓ [39m[90mAccessors → TestExt[39m
+   5096.1 ms[32m  ✓ [39m[90mStaticArrays[39m
+    573.9 ms[32m  ✓ [39m[90mAdapt → AdaptStaticArraysExt[39m
+    604.1 ms[32m  ✓ [39m[90mStaticArrays → StaticArraysChainRulesCoreExt[39m
+   1414.4 ms[32m  ✓ [39m[90mBangBang[39m
+    491.2 ms[32m  ✓ [39m[90mStaticArrayInterface → StaticArrayInterfaceStaticArraysExt[39m
+    465.4 ms[32m  ✓ [39m[90mConstructionBase → ConstructionBaseStaticArraysExt[39m
+    475.6 ms[32m  ✓ [39m[90mAccessors → StaticArraysExt[39m
+    621.9 ms[32m  ✓ [39m[90mBangBang → BangBangChainRulesCoreExt[39m
+    598.8 ms[32m  ✓ [39m[90mBangBang → BangBangStaticArraysExt[39m
+    501.1 ms[32m  ✓ [39m[90mMicroCollections[39m
+    648.3 ms[32m  ✓ [39m[90mBangBang → BangBangTablesExt[39m
+   5474.8 ms[32m  ✓ [39m[90mIsApprox[39m
+   2874.3 ms[32m  ✓ [39m[90mTransducers[39m
+    664.0 ms[32m  ✓ [39m[90mTransducers → TransducersAdaptExt[39m
+    841.1 ms[32m  ✓ [39m[90mTransducers → TransducersReferenceablesExt[39m
+   2558.6 ms[32m  ✓ [39m[90mFolds[39m
+   8646.9 ms[32m  ✓ [39m[90mArrayLayouts[39m
+   1047.8 ms[32m  ✓ [39m[90mArrayLayouts → ArrayLayoutsSparseArraysExt[39m
+   1570.3 ms[32m  ✓ [39m[90mBlockArrays[39m
+    954.3 ms[32m  ✓ [39m[90mBlockArrays → BlockArraysAdaptExt[39m
+   1116.9 ms[32m  ✓ [39m[90mTransducers → TransducersBlockArraysExt[39m
+   5269.6 ms[32m  ✓ [39m[90mNDTensors[39m
+  18946.7 ms[32m  ✓ [39m[90mSparseIR[39m
+   5069.4 ms[32m  ✓ [39mITensors
+   1428.4 ms[32m  ✓ [39mITensors → ITensorsVectorInterfaceExt
+   3483.5 ms[32m  ✓ [39m[90mITensorMPS[39m
+   2157.2 ms[32m  ✓ [39m[90mITensorMPS → ITensorMPSChainRulesCoreExt[39m
+   2165.9 ms[32m  ✓ [39mT4ATensorCI → TCIITensorConversion
+   2167.6 ms[32m  ✓ [39m[90mTensorCrossInterpolation → TCIITensorConversion[39m
+   2016.3 ms[32m  ✓ [39m[90mT4AITensorCompat[39m
+   3078.4 ms[32m  ✓ [39m[90mT4APartitionedMPSs[39m
+   3389.4 ms[32m  ✓ [39mT4AQuantics
+   2906.9 ms[32m  ✓ [39mT4ATCIAlgorithms
+  86 dependencies successfully precompiled in 52 seconds. 57 already precompiled.
+  [33m1[39m dependency had output during precompilation:[33m
+┌ [39mT4AQuantics[33m
+│  [39mWARNING: ignoring conflicting import of SiteTypes.siteinds into T4AQuantics[33m
+└  [39m

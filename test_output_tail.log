@@ -1,0 +1,24 @@
+[33m[1m┌ [22m[39m[33m[1mWarning: [22m[39mSkipping _util.jl (T4AITensorCompat not available): LoadError("/Users/hiroshi/projects/tensor4all/T4ATCIAlgorithms.jl/test/_util.jl", 4, ArgumentError("Package T4AITensorCompat not found in current path.\n- Run `import Pkg; Pkg.add(\"T4AITensorCompat\")` to install the T4AITensorCompat package."))
+[33m[1m└ [22m[39m[90m@ Main ~/projects/tensor4all/T4ATCIAlgorithms.jl/test/runtests.jl:21[39m
+[0m[1mTest Summary: | [22m[32m[1mPass  [22m[39m[36m[1mTotal  [22m[39m[0m[1mTime[22m
+Util          | [32m  15  [39m[36m   15  [39m[0m0.9s
+[0m[1mTest Summary: | [22m[32m[1mPass  [22m[39m[36m[1mTotal  [22m[39m[0m[1mTime[22m
+Projector     | [32m  24  [39m[36m   24  [39m[0m0.5s
+[0m[1mTest Summary:  | [22m[32m[1mPass  [22m[39m[36m[1mTotal  [22m[39m[0m[1mTime[22m
+BlockStructure | [32m   3  [39m[36m    3  [39m[0m0.1s
+[33m[1m┌ [22m[39m[33m[1mWarning: [22m[39mSkipping projectable_evaluator_tests.jl (QuanticsGrids not available): LoadError("/Users/hiroshi/projects/tensor4all/T4ATCIAlgorithms.jl/test/projectable_evaluator_tests.jl", 7, ArgumentError("Package QuanticsGrids not found in current path.\n- Run `import Pkg; Pkg.add(\"QuanticsGrids\")` to install the QuanticsGrids package."))
+[33m[1m└ [22m[39m[90m@ Main ~/projects/tensor4all/T4ATCIAlgorithms.jl/test/runtests.jl:31[39m
+[33m[1m┌ [22m[39m[33m[1mWarning: [22m[39mSkipping projtensortrain_tests.jl (T4AITensorCompat not available)
+[33m[1m└ [22m[39m[90m@ Main ~/projects/tensor4all/T4ATCIAlgorithms.jl/test/runtests.jl:37[39m
+[0m[1mTest Summary: | [22m[32m[1mPass  [22m[39m[36m[1mTotal  [22m[39m[0m[1mTime[22m
+ProjContainer | [32m   7  [39m[36m    7  [39m[0m4.9s
+[33m[1m┌ [22m[39m[33m[1mWarning: [22m[39mSkipping mul_tests.jl (T4AITensorCompat not available)
+[33m[1m└ [22m[39m[90m@ Main ~/projects/tensor4all/T4ATCIAlgorithms.jl/test/runtests.jl:44[39m
+[0m[1mTest Summary: | [22m[32m[1mPass  [22m[39m[36m[1mTotal  [22m[39m[0m[1mTime[22m
+TaskQueue     | [32m   1  [39m[36m    1  [39m[0m0.2s
+[0m[1mTest Summary: | [22m[32m[1mPass  [22m[39m[36m[1mTotal  [22m[39m[0m[1mTime[22m
+patching      | [32m  12  [39m[36m   12  [39m[0m0.3s
+[33m[1m┌ [22m[39m[33m[1mWarning: [22m[39mSkipping crossinterpolate_tests.jl (QuanticsGrids not available): LoadError("/Users/hiroshi/projects/tensor4all/T4ATCIAlgorithms.jl/test/crossinterpolate_tests.jl", 8, ArgumentError("Package QuanticsGrids not found in current path.\n- Run `import Pkg; Pkg.add(\"QuanticsGrids\")` to install the QuanticsGrids package."))
+[33m[1m└ [22m[39m[90m@ Main ~/projects/tensor4all/T4ATCIAlgorithms.jl/test/runtests.jl:52[39m
+[0m[1mTest Summary: | [22m[32m[1mPass  [22m[39m[36m[1mTotal  [22m[39m[0m[1mTime[22m
+tree          | [32m  16  [39m[36m   16  [39m[0m0.3s

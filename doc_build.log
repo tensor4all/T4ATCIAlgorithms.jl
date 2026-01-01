@@ -1,0 +1,18 @@
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39mSetupBuildDirectory: setting up build directory.
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39mDoctest: running doctests.
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39mExpandTemplates: expanding markdown templates.
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39mCrossReferences: building cross-references.
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39mCheckDocument: running document checks.
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39mPopulate: populating indices.
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39mRenderDocument: rendering document.
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39mHTMLWriter: rendering HTML pages.
+[33m[1m┌ [22m[39m[33m[1mWarning: [22m[39mUnable to determine the repository root URL for the navbar link.
+[33m[1m│ [22m[39mThis can happen when a string is passed to the `repo` keyword of `makedocs`.
+[33m[1m│ [22m[39m
+[33m[1m│ [22m[39mTo remove this warning, either pass a Remotes.Remote object to `repo` to completely
+[33m[1m│ [22m[39mspecify the remote repository, or explicitly set the remote URL by setting `repolink`
+[33m[1m│ [22m[39mvia `makedocs(format = HTML(repolink = "..."), ...)`.
+[33m[1m└ [22m[39m[90m@ Documenter.HTMLWriter ~/.julia/packages/Documenter/xvqbW/src/html/HTMLWriter.jl:833[39m
+[36m[1m[ [22m[39m[36m[1mInfo: [22m[39mAutomatic `version="0.5.0"` for inventory from ../Project.toml
+[33m[1m┌ [22m[39m[33m[1mWarning: [22m[39mDocumenter could not auto-detect the building environment. Skipping deployment.
+[33m[1m└ [22m[39m[90m@ Documenter ~/.julia/packages/Documenter/xvqbW/src/deployconfig.jl:93[39m

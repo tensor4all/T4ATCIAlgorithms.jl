@@ -13,6 +13,7 @@ makedocs(;
         assets=String[],
     ),
     pages=["Home" => "index.md"],
+    remotes=nothing,
 )
 
 deploydocs(; repo="github.com/tensor4all/T4ATCIAlgorithms.jl.git", devbranch="main")
