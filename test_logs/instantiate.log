@@ -1,0 +1,167 @@
+  Activating project at `~/projects/JuliaUmbrella/T4ATCIAlgorithms.jl`
+   Resolving package versions...
+    Updating `~/projects/JuliaUmbrella/T4ATCIAlgorithms.jl/Project.toml`
+  [da5c29d0] + EllipsisNotation v1.8.0
+  [9136182c] + ITensors v0.9.14
+  [bac558e1] + OrderedCollections v1.8.1
+  [99202d80] + T4AQuantics v0.4.6 `../T4AQuantics.jl`
+  [8ba89e20] ~ Distributed ⇒ v1.11.0
+  [37e2e46d] ~ LinearAlgebra ⇒ v1.11.0
+    Updating `~/projects/JuliaUmbrella/T4ATCIAlgorithms.jl/Manifest.toml`
+  [7d9f7c33] + Accessors v0.1.42
+  [79e6a3ab] + Adapt v4.4.0
+  [dce04be8] + ArgCheck v2.5.0
+  [4fba245c] + ArrayInterface v7.22.0
+  [4c555306] + ArrayLayouts v1.12.0
+  [198e06fe] + BangBang v0.4.6
+  [9718e550] + Baselet v0.1.1
+  [0e736298] + Bessels v0.2.8
+  [c3b6d118] + BitIntegers v0.3.5
+  [8e7c35d0] + BlockArrays v1.9.2
+  [d360d2e6] + ChainRulesCore v1.26.0
+  [f70d9fcc] + CommonWorldInvalidations v1.0.0
+  [34da2185] + Compat v4.18.1
+  [a33af91c] + CompositionsBase v0.1.2
+  [187b0558] + ConstructionBase v1.6.0
+  [9a962f9c] + DataAPI v1.16.0
+  [864edb3b] + DataStructures v0.19.3
+  [e2d170a0] + DataValueInterfaces v1.0.0
+  [244e2a9f] + DefineSingletons v0.1.2
+  [85a47980] + Dictionaries v0.4.5
+  [ffbed154] + DocStringExtensions v0.9.5
+  [da5c29d0] + EllipsisNotation v1.8.0
+  [e2ba6199] + ExprTools v0.1.10
+  [e189563c] + ExternalDocstrings v0.1.1
+  [1a297f60] + FillArrays v1.15.0
+  [41a02a25] + Folds v0.2.10
+  [d9f16b24] + Functors v0.5.2
+  [14197337] + GenericLinearAlgebra v0.3.19
+  [f0d1745a] + HalfIntegers v1.6.0
+  [0d1a4710] + ITensorMPS v0.3.24
+  [9136182c] + ITensors v0.9.14
+  [615f187c] + IfElse v0.1.1
+  [313cdc1a] + Indexing v1.1.1
+  [22cec73e] + InitialValues v0.3.1
+  [842dd82b] + InlineStrings v1.4.5
+  [3587e190] + InverseFunctions v0.1.17
+  [28f27b66] + IsApprox v2.0.0
+  [82899510] + IteratorInterfaceExtensions v1.0.0
+  [0b1a1467] + KrylovKit v0.10.2
+  [1914dd2f] + MacroTools v0.5.16
+  [128add7d] + MicroCollections v0.2.0
+  [bdf0d083] + MultiFloats v2.3.0
+  [23ae76d9] + NDTensors v0.4.15
+  [bac558e1] + OrderedCollections v1.8.1
+  [65ce6f38] + PackageExtensionCompat v1.0.2
+⌅ [aea7be01] + PrecompileTools v1.2.1
+  [21216c6a] + Preferences v1.5.0
+  [1fd47b50] + QuadGK v2.11.2
+  [634c7f73] + QuanticsGrids v0.6.0
+  [b11687fd] + QuanticsTCI v0.7.2
+  [42d2dcc6] + Referenceables v0.1.3
+  [ae029012] + Requires v1.3.1
+  [fdea26ae] + SIMD v3.7.2
+  [431bcebd] + SciMLPublic v1.0.0
+  [d3ce8812] + SerializedElementArrays v0.1.0
+  [efcf1570] + Setfield v1.1.2
+  [699a6c99] + SimpleTraits v0.9.5
+  [4fe2279e] + SparseIR v1.1.4
+  [03a91e81] + SplitApplyCombine v1.2.3
+  [171d559e] + SplittablesBase v0.1.15
+  [aedffcd0] + Static v1.3.1
+  [0d7ed370] + StaticArrayInterface v1.8.0
+  [90137ffa] + StaticArrays v1.9.15
+  [1e83bf80] + StaticArraysCore v1.4.4
+  [5e0ebb24] + Strided v2.3.2
+  [4db3bf67] + StridedViews v0.4.1
+  [864b39ca] + T4AITensorCompat v0.4.0 `../T4AITensorCompat.jl`
+  [f7a3e09c] + T4APartitionedMPSs v0.6.1 `../T4APartitionedMPSs.jl`
+  [99202d80] + T4AQuantics v0.4.6 `../T4AQuantics.jl`
+  [3783bdb8] + TableTraits v1.0.1
+  [bd369af6] + Tables v1.12.1
+  [b261b2ec] + TensorCrossInterpolation v0.9.18
+  [24d252fe] + ThreadedScans v0.1.0
+  [a759f4b9] + TimerOutputs v0.5.29
+  [28d57a85] + Transducers v0.4.85
+  [9d95972d] + TupleTools v1.6.0
+  [409d34a3] + VectorInterface v0.5.0
+  [bd1ec220] + Zeros v0.4.0
+  [0dad84c5] + ArgTools v1.1.2
+  [56f22d72] + Artifacts v1.11.0
+  [2a0f44e3] + Base64 v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8ba89e20] + Distributed v1.11.0
+  [f43a241f] + Downloads v1.6.0
+  [7b1f6079] + FileWatching v1.11.0
+  [9fa8497b] + Future v1.11.0
+  [b77e0a4c] + InteractiveUtils v1.11.0
+  [b27032c2] + LibCURL v0.6.4
+  [76f85450] + LibGit2 v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [37e2e46d] + LinearAlgebra v1.11.0
+  [56ddb016] + Logging v1.11.0
+  [d6f4376e] + Markdown v1.11.0
+  [ca575930] + NetworkOptions v1.2.0
+  [44cfe95a] + Pkg v1.11.0
+  [de0858da] + Printf v1.11.0
+  [9a3f8284] + Random v1.11.0
+  [ea8e919c] + SHA v0.7.0
+  [9e88b42a] + Serialization v1.11.0
+  [6462fe0b] + Sockets v1.11.0
+  [2f01184e] + SparseArrays v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [a4e569a6] + Tar v1.10.0
+  [8dfed614] + Test v1.11.0
+  [cf7118a7] + UUIDs v1.11.0
+  [4ec0a83e] + Unicode v1.11.0
+  [e66e0078] + CompilerSupportLibraries_jll v1.1.1+0
+  [deac9b47] + LibCURL_jll v8.6.0+0
+  [e37daf67] + LibGit2_jll v1.7.2+0
+  [29816b5a] + LibSSH2_jll v1.11.0+1
+  [c8ffd9c3] + MbedTLS_jll v2.28.6+0
+  [14a3606d] + MozillaCACerts_jll v2023.12.12
+  [4536629a] + OpenBLAS_jll v0.3.27+1
+  [bea87d4a] + SuiteSparse_jll v7.7.0+0
+  [83775a58] + Zlib_jll v1.2.13+1
+  [8e850b90] + libblastrampoline_jll v5.11.0+0
+  [8e850ede] + nghttp2_jll v1.59.0+0
+  [3f19e933] + p7zip_jll v17.4.0+2
+        Info Packages marked with ⌅ have new versions available but compatibility constraints restrict them from upgrading. To see why use `status --outdated -m`
+   Resolving package versions...
+ERROR: Unsatisfiable requirements detected for package T4AITensorCompat [864b39ca]:
+ T4AITensorCompat [864b39ca] log:
+ ├─possible versions are: 0.4.0 or uninstalled
+ ├─restricted to versions 0.3 by TensorCrossInterpolation [b261b2ec], leaving only versions: uninstalled
+ │ └─TensorCrossInterpolation [b261b2ec] log:
+ │   ├─possible versions are: 0.9.18 or uninstalled
+ │   └─TensorCrossInterpolation [b261b2ec] is fixed to version 0.9.18
+ └─T4AITensorCompat [864b39ca] is fixed to version 0.4.0
+Stacktrace:
+  [1] check_constraints(graph::Pkg.Resolve.Graph)
+    @ Pkg.Resolve ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/Resolve/graphtype.jl:998
+  [2] Pkg.Resolve.Graph(compat::Dict{Base.UUID, Dict{VersionNumber, Dict{Base.UUID, Pkg.Versions.VersionSpec}}}, compat_weak::Dict{Base.UUID, Dict{VersionNumber, Set{Base.UUID}}}, uuid_to_name::Dict{Base.UUID, String}, reqs::Dict{Base.UUID, Pkg.Versions.VersionSpec}, fixed::Dict{Base.UUID, Pkg.Resolve.Fixed}, verbose::Bool, julia_version::VersionNumber)
+    @ Pkg.Resolve ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/Resolve/graphtype.jl:345
+  [3] deps_graph(env::Pkg.Types.EnvCache, registries::Vector{Pkg.Registry.RegistryInstance}, uuid_to_name::Dict{Base.UUID, String}, reqs::Dict{Base.UUID, Pkg.Versions.VersionSpec}, fixed::Dict{Base.UUID, Pkg.Resolve.Fixed}, julia_version::VersionNumber, installed_only::Bool)
+    @ Pkg.Operations ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/Operations.jl:620
+  [4] resolve_versions!(env::Pkg.Types.EnvCache, registries::Vector{Pkg.Registry.RegistryInstance}, pkgs::Vector{Pkg.Types.PackageSpec}, julia_version::VersionNumber, installed_only::Bool)
+    @ Pkg.Operations ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/Operations.jl:433
+  [5] targeted_resolve(env::Pkg.Types.EnvCache, registries::Vector{Pkg.Registry.RegistryInstance}, pkgs::Vector{Pkg.Types.PackageSpec}, preserve::Pkg.Types.PreserveLevel, julia_version::VersionNumber)
+    @ Pkg.Operations ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/Operations.jl:1402
+  [6] tiered_resolve(env::Pkg.Types.EnvCache, registries::Vector{Pkg.Registry.RegistryInstance}, pkgs::Vector{Pkg.Types.PackageSpec}, julia_version::VersionNumber, try_all_installed::Bool)
+    @ Pkg.Operations ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/Operations.jl:1391
+  [7] _resolve(io::IOContext{IO}, env::Pkg.Types.EnvCache, registries::Vector{Pkg.Registry.RegistryInstance}, pkgs::Vector{Pkg.Types.PackageSpec}, preserve::Pkg.Types.PreserveLevel, julia_version::VersionNumber)
+    @ Pkg.Operations ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/Operations.jl:1412
+  [8] develop(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}, new_git::Set{Base.UUID}; preserve::Pkg.Types.PreserveLevel, platform::Base.BinaryPlatforms.Platform)
+    @ Pkg.Operations ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/Operations.jl:1493
+  [9] develop
+    @ ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/Operations.jl:1484 [inlined]
+ [10] develop(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}; shared::Bool, preserve::Pkg.Types.PreserveLevel, platform::Base.BinaryPlatforms.Platform, kwargs::@Kwargs{io::IOContext{IO}})
+    @ Pkg.API ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/API.jl:258
+ [11] develop(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOContext{IO}, kwargs::@Kwargs{})
+    @ Pkg.API ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/API.jl:159
+ [12] develop(pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.API ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/API.jl:148
+ [13] develop(pkg::Pkg.Types.PackageSpec)
+    @ Pkg.API ~/.julia/juliaup/julia-1.11.7+0.aarch64.apple.darwin14/share/julia/stdlib/v1.11/Pkg/src/API.jl:146
+ [14] top-level scope
+    @ none:1
